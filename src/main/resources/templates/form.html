@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Stwórz książkę</title>
+</head>
+<body>
+<h1>Stwórz książkę</h1>
+<form method="post">
+    <div>
+    <label for="title">Tytuł</label>
+        <!-- dane z pola text beda dołaczone wtedy gdy damy parametr name -->
+        <input type="text" id="title" name="title">
+    </div>
+    <div>
+        <label for="author">Autor</label>
+        <input type="text" id="author" name="author">
+    </div>
+    <input type="submit" value="Zapisz">
+</form>
+</body>
+</html>

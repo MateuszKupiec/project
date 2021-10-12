@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Przykładowe atrybuty modelu</title>
+</head>
+<body>
+Wartość atrybutu myStringAttribute: <strong th:text="${myStringAttribute}"></strong>
+<ul>
+    <li th:each="myElement: ${myListAttribute}" th:text="${myElement}"></li>
+</ul>
+</body>
+</html>
