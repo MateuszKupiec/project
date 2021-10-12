@@ -1,5 +1,4 @@
 target/
-!.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
@@ -19,7 +18,7 @@ target/
 *.ipr
 
 ### Maven ###
-.mvn
+/.mvn/
 
 ### NetBeans ###
 /nbproject/private/
@@ -33,3 +32,4 @@ build/
 
 ### VS Code ###
 .vscode/
+
