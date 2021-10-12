@@ -16,7 +16,6 @@ public class BookService {
         this.repository = repository;
     }
 
-
     public List<BookDto> getAll() {
         return repository.findAll().stream()
                 .map(book -> new BookDto(book.getTitle(), book.getAuthor())).collect(Collectors.toList());

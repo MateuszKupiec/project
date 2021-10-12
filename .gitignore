@@ -18,6 +18,9 @@ target/
 *.iml
 *.ipr
 
+### Maven ###
+.mvn
+
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
